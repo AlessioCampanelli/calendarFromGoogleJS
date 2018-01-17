@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: blue;
+}
+
+.header
+{
+	color:#FFFFFF;
+	background: #3791C8;
+}
+
+.header-tableview
+{
+	color:#3791C8;
+}
+
+.titleMonth {
+	color: #333333;
+	font-size: 22px;
+}
+
+.numberDate {
+	color: #333333;
+	font-size: 25px;
+}
+
+.subtitle {
+	color: #CAC1C1;
+	font-size: 14px;
+	word-wrap: break-word;
+	/*padding-left: 32px; */
+}
+
+.info {
+	vertical-align: center;
+}
+
+.loader {
+  border: 16px solid #3791C8;
+  border-radius: 50%;
+  border-top: 16px solid #d4d4d4;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*p {
+    color: red;
+} */
